@@ -1,0 +1,50 @@
+[
+  {
+    "name": "User Registration",
+    "duration": 1577,
+    "unit": "ms",
+    "status": 201
+  },
+  {
+    "name": "User Login",
+    "duration": 1490,
+    "unit": "ms",
+    "status": 200
+  },
+  {
+    "name": "Get Current User",
+    "duration": 5,
+    "unit": "ms",
+    "status": 200
+  },
+  {
+    "name": "Create Assignment (5 questions)",
+    "duration": 9,
+    "unit": "ms",
+    "status": 400
+  },
+  {
+    "name": "List Assignments (DB query)",
+    "duration": 4,
+    "unit": "ms",
+    "status": 200
+  },
+  {
+    "name": "List Profiles (DB query)",
+    "duration": 4,
+    "unit": "ms",
+    "status": 200
+  },
+  {
+    "name": "Health Check",
+    "duration": 3,
+    "unit": "ms",
+    "status": 200
+  },
+  {
+    "name": "OCR Processing",
+    "duration": 308446,
+    "unit": "ms",
+    "status": 408
+  }
+]

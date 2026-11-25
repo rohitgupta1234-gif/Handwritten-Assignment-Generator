@@ -1,0 +1,52 @@
+{
+  "image_info": {
+    "width": 1237,
+    "height": 1600,
+    "num_detected_components": 24742,
+    "num_lines": 30,
+    "num_text_regions": 11
+  },
+  "character_dimensions": {
+    "avg_char_height_px": 24.86897590361446,
+    "avg_char_width_px": 24.323795180722893,
+    "avg_aspect_ratio": 1.0041452087532214,
+    "std_char_height_px": 7.684243080636565,
+    "std_char_width_px": 14.590049837862175,
+    "cv_char_height": 0.3089891240563604,
+    "cv_char_width": 0.5998262084292294
+  },
+  "spacing": {
+    "avg_line_spacing_px": 114.07692307692308,
+    "std_line_spacing_px": 80.50653249984084,
+    "cv_line_spacing": 0.7057214581914572,
+    "avg_word_spacing_px": 0.0
+  },
+  "slant": {
+    "avg_slant_degrees": 6.0149128108320875,
+    "std_slant_degrees": 52.11951609497367,
+    "cv_slant": 8.665049308963065
+  },
+  "baseline": {
+    "avg_deviation_px": 8.41736293922399,
+    "std_deviation_px": 9.514860791032511,
+    "baseline_quality": 0.0951034939856588
+  },
+  "stroke": {
+    "avg_thickness_px": 2.143470287322998,
+    "std_thickness_px": 0.5526785850524902
+  },
+  "ink_density": 0.15296883395289373,
+  "margins": {
+    "left_px": 579.4889406286379,
+    "right_px": 616.1071012805588,
+    "top_px": 49.0,
+    "bottom_px": 46.0
+  },
+  "connectedness": 0.899284646162551,
+  "irregularity": {
+    "cv_char_height": 0.3089891240563604,
+    "cv_char_width": 0.5998262084292294,
+    "cv_line_spacing": 0.7057214581914572,
+    "cv_slant": 8.665049308963065
+  }
+}

@@ -1,0 +1,9 @@
+export { LandingPage } from './LandingPage';
+export { LoginPage } from './LoginPage';
+export { RegisterPage } from './RegisterPage';
+export { DashboardPage } from './DashboardPage';
+export { CreateAssignmentPage } from './CreateAssignmentPage';
+export { HandwritingProfilePage } from './HandwritingProfilePage';
+export { MyAssignmentsPage } from './MyAssignmentsPage';
+export { AssignmentPreviewPage } from './AssignmentPreviewPage';
+export { SettingsPage } from './SettingsPage';

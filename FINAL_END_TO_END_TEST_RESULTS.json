@@ -1,0 +1,276 @@
+{
+  "auditDate": "2026-11-24T12:06:26.525Z",
+  "environment": {
+    "nodeVersion": "v24.19.0",
+    "platform": "win32",
+    "port": 5000,
+    "databasePath": "C:\\Users\\Lenovo\\Desktop\\Handwriting_Project\\backend\\data\\app.db"
+  },
+  "summary": {
+    "total": 36,
+    "passed": 36,
+    "failed": 0,
+    "notTested": 0
+  },
+  "tests": [
+    {
+      "category": "Builds",
+      "name": "Backend TypeScript Compilation",
+      "status": "PASS",
+      "details": "backend/dist/index.js exists",
+      "durationMs": 0
+    },
+    {
+      "category": "Builds",
+      "name": "Frontend Vite Production Bundle",
+      "status": "PASS",
+      "details": "frontend/dist/index.html exists",
+      "durationMs": 0
+    },
+    {
+      "category": "Database",
+      "name": "Database File Integrity",
+      "status": "PASS",
+      "details": "File size: 2535424 bytes at C:\\Users\\Lenovo\\Desktop\\Handwriting_Project\\backend\\data\\app.db",
+      "durationMs": 0
+    },
+    {
+      "category": "Database",
+      "name": "User Records Accessible",
+      "status": "PASS",
+      "details": "Total registered users in DB: 115",
+      "durationMs": 0
+    },
+    {
+      "category": "Database",
+      "name": "Handwriting Profiles Accessible",
+      "status": "PASS",
+      "details": "Total handwriting profiles: 60",
+      "durationMs": 0
+    },
+    {
+      "category": "Server",
+      "name": "Express Server Startup on Port 5000",
+      "status": "PASS",
+      "details": "HTTP server running on 127.0.0.1:5000",
+      "durationMs": 6650
+    },
+    {
+      "category": "Health",
+      "name": "Kubernetes Liveness Probe (/health/live)",
+      "status": "PASS",
+      "details": "Status 200: {\"status\":\"alive\",\"timestamp\":\"2026-11-24T12:06:33.264Z\",\"uptimeMs\":2101}",
+      "durationMs": 95
+    },
+    {
+      "category": "Health",
+      "name": "Readiness Probe Endpoint (/health/ready)",
+      "status": "PASS",
+      "details": "Status 503: Redis=memory-fallback, DB=undefined",
+      "durationMs": 12179
+    },
+    {
+      "category": "Monitoring",
+      "name": "Prometheus Metrics (/metrics)",
+      "status": "PASS",
+      "details": "Status 200, metrics export length: 4493 bytes",
+      "durationMs": 28
+    },
+    {
+      "category": "Security",
+      "name": "Rate Limit Headers Enforced",
+      "status": "PASS",
+      "details": "X-RateLimit-Limit=10000, Remaining=9999",
+      "durationMs": 0
+    },
+    {
+      "category": "Security",
+      "name": "HTTP Security Headers (CSP & NoSniff)",
+      "status": "PASS",
+      "details": "CSP present: true, X-Content-Type-Options: nosniff",
+      "durationMs": 0
+    },
+    {
+      "category": "Auth",
+      "name": "User Registration API",
+      "status": "PASS",
+      "details": "Status 201, User ID: 4d7c777a-d5e8-4d0e-b978-134f97254562",
+      "durationMs": 826
+    },
+    {
+      "category": "Auth",
+      "name": "User Login & JWT Issuance",
+      "status": "PASS",
+      "details": "Status 200, AccessToken received (length: 280)",
+      "durationMs": 684
+    },
+    {
+      "category": "Auth",
+      "name": "HttpOnly Cookie for Refresh Token",
+      "status": "PASS",
+      "details": "Set-Cookie header includes HttpOnly: true",
+      "durationMs": 0
+    },
+    {
+      "category": "Auth",
+      "name": "Get Authenticated User (/auth/me)",
+      "status": "PASS",
+      "details": "Status 200, Email: auditor_1795522006063@handwriteai.com",
+      "durationMs": 4
+    },
+    {
+      "category": "Auth",
+      "name": "Token Refresh Rotation (/auth/refresh)",
+      "status": "PASS",
+      "details": "Status 200, New AccessToken issued",
+      "durationMs": 767
+    },
+    {
+      "category": "Handwriting",
+      "name": "Profile Image Upload",
+      "status": "PASS",
+      "details": "Status 201, Profile ID: 6433e439-c1e4-4c94-9721-2535f3e8a9db",
+      "durationMs": 18
+    },
+    {
+      "category": "Handwriting",
+      "name": "Handwriting Characteristic Analysis",
+      "status": "PASS",
+      "details": "Status 200, Characteristics Extracted: true",
+      "durationMs": 1440
+    },
+    {
+      "category": "Handwriting",
+      "name": "List Handwriting Profiles",
+      "status": "PASS",
+      "details": "Status 200, Profiles count: 1",
+      "durationMs": 5
+    },
+    {
+      "category": "Assignment",
+      "name": "Assignment Creation API",
+      "status": "PASS",
+      "details": "Status 201, Assignment ID: eec927ac-afda-4d83-ac49-b7a90ec009ab",
+      "durationMs": 5
+    },
+    {
+      "category": "AI Generation",
+      "name": "Dual-Provider AI Answer Generation",
+      "status": "PASS",
+      "details": "Status 200, Answers count: 3",
+      "durationMs": 2574
+    },
+    {
+      "category": "Synthesis",
+      "name": "Personal Mode Handwriting Job Creation",
+      "status": "PASS",
+      "details": "Status 202, Job ID: 8615e98c-5906-4f18-b167-988709e66e68",
+      "durationMs": 111
+    },
+    {
+      "category": "Synthesis",
+      "name": "Generation Job Status & Pages Retrieval",
+      "status": "PASS",
+      "details": "Status 200, Job State: generating",
+      "durationMs": 46
+    },
+    {
+      "category": "Synthesis",
+      "name": "Forge Health Check & Fallback Handling",
+      "status": "PASS",
+      "details": "Status 200: Forge Online=false, Fallback to CSS Engine Active=true",
+      "durationMs": 24098
+    },
+    {
+      "category": "Export",
+      "name": "PDF Generation & Download",
+      "status": "PASS",
+      "details": "Status 200, Content-Type: application/pdf, Size: 112266 bytes, Header: %PDF",
+      "durationMs": 3920
+    },
+    {
+      "category": "Export",
+      "name": "DOCX Generation & Download",
+      "status": "PASS",
+      "details": "Status 200, Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document, Size: 153577 bytes, Header: PK (ZIP)",
+      "durationMs": 2895
+    },
+    {
+      "category": "Security",
+      "name": "Invalid Login Credentials Rejected",
+      "status": "PASS",
+      "details": "Expected HTTP 401, Received: 401",
+      "durationMs": 566
+    },
+    {
+      "category": "Security",
+      "name": "Unauthenticated Access Denied",
+      "status": "PASS",
+      "details": "Expected HTTP 401, Received: 401",
+      "durationMs": 8
+    },
+    {
+      "category": "Security",
+      "name": "Missing Required Input Fields Rejected",
+      "status": "PASS",
+      "details": "Expected HTTP 400, Received: 400",
+      "durationMs": 5
+    },
+    {
+      "category": "Security",
+      "name": "SQL Injection Immunity",
+      "status": "PASS",
+      "details": "SQL injection payload safely handled with status: 401",
+      "durationMs": 4
+    },
+    {
+      "category": "Security",
+      "name": "XSS Input Sanitization",
+      "status": "PASS",
+      "details": "Assignment created with input sanitization: \"<script>alert(\"xss\")</script>Quantum Mechanics\"",
+      "durationMs": 4
+    },
+    {
+      "category": "Persistence",
+      "name": "Database State Persisted & Flushed to Disk",
+      "status": "PASS",
+      "details": "Assignment eec927ac-afda-4d83-ac49-b7a90ec009ab verified on disk: \"Advanced Thermodynamics & Entropy Analysis\"",
+      "durationMs": 21
+    },
+    {
+      "category": "UI/Frontend",
+      "name": "SPA Login Page Loads Correctly",
+      "status": "PASS",
+      "details": "Page Title: \"AI Handwritten Assignment Generator\", HTTP 200",
+      "durationMs": 877
+    },
+    {
+      "category": "UI/Frontend",
+      "name": "Interactive Login & Navigation to Dashboard",
+      "status": "PASS",
+      "details": "Current URL: http://localhost:5000/dashboard",
+      "durationMs": 0
+    },
+    {
+      "category": "UI/Frontend",
+      "name": "Create Assignment Form Controls Rendered",
+      "status": "PASS",
+      "details": "Form controls verified on /create-assignment",
+      "durationMs": 0
+    },
+    {
+      "category": "Logging",
+      "name": "Backend Error Log Audit",
+      "status": "PASS",
+      "details": "Error log exists, inspected 0 total entries",
+      "durationMs": 0
+    }
+  ],
+  "durations": {
+    "totalAuditMs": 76973
+  },
+  "systemLogs": {
+    "errorsCount": 0,
+    "recentErrors": []
+  }
+}

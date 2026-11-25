@@ -1,0 +1,210 @@
+{
+  "timestamp": "2026-11-22T02:31:36.713Z",
+  "steps": {
+    "authentication": {
+      "demoLoginApi": {
+        "success": true
+      },
+      "demoLoginUi": {
+        "success": true
+      },
+      "dashboardLoad": {
+        "success": true
+      },
+      "refreshPersist": {
+        "success": true
+      },
+      "logout": {
+        "success": true
+      },
+      "relogin": {
+        "success": true
+      }
+    },
+    "assignment": {
+      "create": {
+        "success": true,
+        "assignmentId": "a2a66295-1907-411e-b5f7-dc91079377f6"
+      }
+    },
+    "aiGeneration": {
+      "answersCount": 3,
+      "generate": {
+        "success": true
+      }
+    },
+    "handwritingPersonal": {
+      "generate": {
+        "success": true,
+        "jobId": "96d3e7b1-b5c1-4847-a63d-5ad2478df159"
+      },
+      "totalPages": 4,
+      "pagesData": [
+        {
+          "id": "8eda9004-380c-479e-b9bf-d7e8b4753f25",
+          "generatedAssignmentId": "96d3e7b1-b5c1-4847-a63d-5ad2478df159",
+          "pageNumber": 1,
+          "htmlContent": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <meta charset=\"UTF-8\">\n      <style>\n        * { box-sizing: border-box; margin: 0; padding: 0; }\n        body { font-family: 'HandwriteAI Handwriting', cursive; background: white; }\n        .page-container {\n          width: 794px;\n          height: 1123px;\n          position: relative;\n          padding: 80px 60px 80px 60px;\n          background: white;\n        }\n        .paper-ruled { background-color: white; }\n        \n    @font-face {\n      font-family: 'HandwriteAI Handwriting';\n      src: local('Patrick Hand'), local('Comic Neue'), local('Brush Script MT'), local('Segoe Script'), local('Comic Sans MS');\n      font-display: swap;\n    }\n    @font-face {\n      font-family: 'HandwriteAI Question';\n      src: local('Instrument Serif'), local('Georgia'), local('Times New Roman'), local('Serif');\n      font-display: swap;\n    }\n    .handwriting-text {\n      font-family: 'HandwriteAI Handwriting', 'Patrick Hand', 'Comic Neue', 'Brush Script MT', 'Segoe Script', 'Comic Sans MS', cursive;\n      font-size: 7.285714285714285px;\n      line-height: 141.5529411764706px;\n      letter-spacing: 0.4290999999999999px;\n      word-spacing: 22.095238095238095px;\n      font-weight: 500;\n      transform: skewX(-3.1deg);\n      color: #1e293b;\n    }\n    .question-text {\n      font-family: 'HandwriteAI Question', 'Instrument Serif', Georgia, 'Times New Roman', serif;\n      font-size: 8.014285714285714px;\n      line-height: 169.86352941176472px;\n      font-weight: 600;\n      color: #1e3a5f;\n      transform: skewX(-0.9299999999999999deg);\n    }\n    .margin-line {\n      background-image: linear-gradient(to right, rgba(239, 68, 68, 0.3) 1px, transparent 1px);\n      background-position: 60px 0;\n      background-size: 1px 100%;\n      background-repeat: no-repeat;\n    }\n  \n        .assignment-title {\n          font-family: 'HandwriteAI Question', Georgia, serif;\n          font-size: 9.714285714285714px;\n          font-weight: 600;\n          color: #1e3a5f;\n          margin-bottom: 141.5529411764706px;\n          text-align: center;\n          transform: skewX(-0.6200000000000001deg);\n        }\n        .question-block {\n          margin-bottom: 24px;\n          page-break-inside: avoid;\n        }\n        .question-number {\n          font-weight: 600;\n          margin-right: 8px;\n        }\n        .answer-text {\n          margin-left: 2.5rem;\n        }\n        .page-number {\n          position: absolute;\n          bottom: 30px;\n          right: 30px;\n          font-size: 12px;\n          color: #93c5fd;\n        }\n        @media print {\n          .page-container { page-break-after: always; }\n        }\n      </style>\n    </head>\n    <body>\n      <div class=\"page-container paper-ruled margin-line\">\n        <h1 class=\"assignment-title\">E2E Test Assignment - Quantum Physics</h1>\n        <div class=\"page-number\">Page 1 of 4</div>\n      </div>\n    </body>\n    </html>\n  ",
+          "width": 794,
+          "height": 1123,
+          "createdAt": "2026-11-22T02:32:02.099Z"
+        },
+        {
+          "id": "7aabba3b-db68-4c89-922d-85be5e4a883e",
+          "generatedAssignmentId": "96d3e7b1-b5c1-4847-a63d-5ad2478df159",
+          "pageNumber": 2,
+          "htmlContent": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <meta charset=\"UTF-8\">\n      <style>\n        * { box-sizing: border-box; margin: 0; padding: 0; }\n        body { font-family: 'HandwriteAI Handwriting', cursive; background: white; }\n        .page-container {\n          width: 794px;\n          height: 1123px;\n          position: relative;\n          padding: 80px 60px 80px 60px;\n          background: white;\n        }\n        .paper-ruled { background-color: white; }\n        \n    @font-face {\n      font-family: 'HandwriteAI Handwriting';\n      src: local('Patrick Hand'), local('Comic Neue'), local('Brush Script MT'), local('Segoe Script'), local('Comic Sans MS');\n      font-display: swap;\n    }\n    @font-face {\n      font-family: 'HandwriteAI Question';\n      src: local('Instrument Serif'), local('Georgia'), local('Times New Roman'), local('Serif');\n      font-display: swap;\n    }\n    .handwriting-text {\n      font-family: 'HandwriteAI Handwriting', 'Patrick Hand', 'Comic Neue', 'Brush Script MT', 'Segoe Script', 'Comic Sans MS', cursive;\n      font-size: 7.285714285714285px;\n      line-height: 141.5529411764706px;\n      letter-spacing: 0.4290999999999999px;\n      word-spacing: 22.095238095238095px;\n      font-weight: 500;\n      transform: skewX(-3.1deg);\n      color: #1e293b;\n    }\n    .question-text {\n      font-family: 'HandwriteAI Question', 'Instrument Serif', Georgia, 'Times New Roman', serif;\n      font-size: 8.014285714285714px;\n      line-height: 169.86352941176472px;\n      font-weight: 600;\n      color: #1e3a5f;\n      transform: skewX(-0.9299999999999999deg);\n    }\n    .margin-line {\n      background-image: linear-gradient(to right, rgba(239, 68, 68, 0.3) 1px, transparent 1px);\n      background-position: 60px 0;\n      background-size: 1px 100%;\n      background-repeat: no-repeat;\n    }\n  \n        .assignment-title {\n          font-family: 'HandwriteAI Question', Georgia, serif;\n          font-size: 9.714285714285714px;\n          font-weight: 600;\n          color: #1e3a5f;\n          margin-bottom: 141.5529411764706px;\n          text-align: center;\n          transform: skewX(-0.6200000000000001deg);\n        }\n        .question-block {\n          margin-bottom: 24px;\n          page-break-inside: avoid;\n        }\n        .question-number {\n          font-weight: 600;\n          margin-right: 8px;\n        }\n        .answer-text {\n          margin-left: 2.5rem;\n        }\n        .page-number {\n          position: absolute;\n          bottom: 30px;\n          right: 30px;\n          font-size: 12px;\n          color: #93c5fd;\n        }\n        @media print {\n          .page-container { page-break-after: always; }\n        }\n      </style>\n    </head>\n    <body>\n      <div class=\"page-container paper-ruled margin-line\">\n        <div class=\"question-block\"><p class=\"question-text\"><span class=\"question-number\">Q1:</span> <p>What is quantum mechanics?</p>\n</p><div class=\"answer-text handwriting-text\"><p>Quantum mechanics is the fundamental branch of physics that describes the physical properties of nature at the scale of atoms and subatomic particles. Unlike classical mechanics, which relies on deterministic trajectories governed by Newton's laws, quantum mechanics is inherently probabilistic. It posits that physical systems are described by a mathematical entity called a wavefunction, typically denoted by <span class=\"math-inline\" data-latex=\"\\Psi\">\\(\\Psi\\)</span>, which encapsulates the probability amplitudes of all possible states of a system. The evolution of this wavefunction is governed by the Schrödinger equation, a linear partial differential equation that allows for the phenomenon of superposition, where a particle exists in multiple states simultaneously until a measurement causes the wavefunction to \"collapse\" into a single definite eigenstate.</p>\n<p>Beyond the probabilistic nature of measurement, quantum mechanics introduces foundational concepts that defy classical intuition, most notably wave-particle duality, Heisenberg’s uncertainty principle, and quantum entanglement. Wave-particle duality suggests that entities like electrons and photons exhibit both wave-like and particle-like properties depending on the experimental context. The uncertainty principle establishes a fundamental limit to the precision with which certain pairs of physical properties, such as position and momentum, can be known simultaneously. Furthermore, entanglement describes a quantum phenomenon where the states of multiple particles become inextricably linked such that the measurement of one particle instantaneously influences the state of the other, regardless of the distance separating them. These principles collectively form the bedrock of modern physics, underpinning our understanding of chemical bonding, solid-state physics, and the development of quantum information technologies.</p>\n</div></div>\n        <div class=\"page-number\">Page 2 of 4</div>\n      </div>\n    </body>\n    </html>\n  ",
+          "width": 794,
+          "height": 1123,
+          "createdAt": "2026-11-22T02:32:02.099Z"
+        },
+        {
+          "id": "c790b685-88be-4b92-993d-daa0ac06ab0d",
+          "generatedAssignmentId": "96d3e7b1-b5c1-4847-a63d-5ad2478df159",
+          "pageNumber": 3,
+          "htmlContent": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <meta charset=\"UTF-8\">\n      <style>\n        * { box-sizing: border-box; margin: 0; padding: 0; }\n        body { font-family: 'HandwriteAI Handwriting', cursive; background: white; }\n        .page-container {\n          width: 794px;\n          height: 1123px;\n          position: relative;\n          padding: 80px 60px 80px 60px;\n          background: white;\n        }\n        .paper-ruled { background-color: white; }\n        \n    @font-face {\n      font-family: 'HandwriteAI Handwriting';\n      src: local('Patrick Hand'), local('Comic Neue'), local('Brush Script MT'), local('Segoe Script'), local('Comic Sans MS');\n      font-display: swap;\n    }\n    @font-face {\n      font-family: 'HandwriteAI Question';\n      src: local('Instrument Serif'), local('Georgia'), local('Times New Roman'), local('Serif');\n      font-display: swap;\n    }\n    .handwriting-text {\n      font-family: 'HandwriteAI Handwriting', 'Patrick Hand', 'Comic Neue', 'Brush Script MT', 'Segoe Script', 'Comic Sans MS', cursive;\n      font-size: 7.285714285714285px;\n      line-height: 141.5529411764706px;\n      letter-spacing: 0.4290999999999999px;\n      word-spacing: 22.095238095238095px;\n      font-weight: 500;\n      transform: skewX(-3.1deg);\n      color: #1e293b;\n    }\n    .question-text {\n      font-family: 'HandwriteAI Question', 'Instrument Serif', Georgia, 'Times New Roman', serif;\n      font-size: 8.014285714285714px;\n      line-height: 169.86352941176472px;\n      font-weight: 600;\n      color: #1e3a5f;\n      transform: skewX(-0.9299999999999999deg);\n    }\n    .margin-line {\n      background-image: linear-gradient(to right, rgba(239, 68, 68, 0.3) 1px, transparent 1px);\n      background-position: 60px 0;\n      background-size: 1px 100%;\n      background-repeat: no-repeat;\n    }\n  \n        .assignment-title {\n          font-family: 'HandwriteAI Question', Georgia, serif;\n          font-size: 9.714285714285714px;\n          font-weight: 600;\n          color: #1e3a5f;\n          margin-bottom: 141.5529411764706px;\n          text-align: center;\n          transform: skewX(-0.6200000000000001deg);\n        }\n        .question-block {\n          margin-bottom: 24px;\n          page-break-inside: avoid;\n        }\n        .question-number {\n          font-weight: 600;\n          margin-right: 8px;\n        }\n        .answer-text {\n          margin-left: 2.5rem;\n        }\n        .page-number {\n          position: absolute;\n          bottom: 30px;\n          right: 30px;\n          font-size: 12px;\n          color: #93c5fd;\n        }\n        @media print {\n          .page-container { page-break-after: always; }\n        }\n      </style>\n    </head>\n    <body>\n      <div class=\"page-container paper-ruled margin-line\">\n        <div class=\"question-block\"><p class=\"question-text\"><span class=\"question-number\">Q2:</span> <p>Explain wave-particle duality with equations.</p>\n</p><div class=\"answer-text handwriting-text\"><p>Wave-particle duality posits that all quantum entities exhibit both wave-like and particle-like properties, a principle fundamentally linked by the de Broglie hypothesis. For a particle with momentum <span class=\"math-inline\" data-latex=\"p\">\\(p\\)</span>, its wavelength <span class=\"math-inline\" data-latex=\"\\lambda\">\\(\\lambda\\)</span> is defined by the relation <span class=\"math-inline\" data-latex=\"\\lambda = h/p\">\\(\\lambda = h/p\\)</span>, where <span class=\"math-inline\" data-latex=\"h\">\\(h\\)</span> is Planck’s constant. This equation bridges the gap between the corpuscular nature of matter, characterized by momentum, and wave-like characteristics, characterized by wavelength. Simultaneously, the energy of a quantum is linked to its frequency <span class=\"math-inline\" data-latex=\"\\nu\">\\(\\nu\\)</span> through the Planck-Einstein relation, <span class=\"math-inline\" data-latex=\"E = h\\nu\">\\(E = h\\nu\\)</span>. Together, these equations imply that the physical behavior of an entity depends on the experimental apparatus used to observe it; for instance, electrons demonstrate particle-like localized impacts in a cloud chamber, yet exhibit interference patterns characteristic of waves when passed through a double-slit, confirming their behavior is governed by a probability wave function, <span class=\"math-inline\" data-latex=\"\\Psi\">\\(\\Psi\\)</span>.</p>\n<p>This duality is further formalized by the Heisenberg Uncertainty Principle, <span class=\"math-inline\" data-latex=\"\\Delta x \\Delta p \\ge \\hbar/2\">\\(\\Delta x \\Delta p \\ge \\hbar/2\\)</span>, which dictates that one cannot simultaneously define a particle's exact position and momentum. As the wave packet becomes more localized (acting more like a particle), the range of momentum components required to construct that packet increases, demonstrating that the \"particle\" manifestation is essentially a superposition of wave modes. In the quantum mechanical framework, the wave function <span class=\"math-inline\" data-latex=\"\\Psi(x,t)\">\\(\\Psi(x,t)\\)</span> encapsulates all physical information, and its squared modulus <span class=\"math-inline\" data-latex=\"|\\Psi|^2\">\\(|\\Psi|^2\\)</span> provides the probability density of locating the particle in space. Thus, the transition from wave to particle behavior is not a physical metamorphosis but a consequence of the measurement process, where the wave function collapses upon interaction, reconciling the continuous nature of wave propagation with the discrete nature of quantum detection.</p>\n</div></div>\n        <div class=\"page-number\">Page 3 of 4</div>\n      </div>\n    </body>\n    </html>\n  ",
+          "width": 794,
+          "height": 1123,
+          "createdAt": "2026-11-22T02:32:02.099Z"
+        },
+        {
+          "id": "a84ea7b0-9163-4b2f-9870-3aa6e66a3e0c",
+          "generatedAssignmentId": "96d3e7b1-b5c1-4847-a63d-5ad2478df159",
+          "pageNumber": 4,
+          "htmlContent": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <meta charset=\"UTF-8\">\n      <style>\n        * { box-sizing: border-box; margin: 0; padding: 0; }\n        body { font-family: 'HandwriteAI Handwriting', cursive; background: white; }\n        .page-container {\n          width: 794px;\n          height: 1123px;\n          position: relative;\n          padding: 80px 60px 80px 60px;\n          background: white;\n        }\n        .paper-ruled { background-color: white; }\n        \n    @font-face {\n      font-family: 'HandwriteAI Handwriting';\n      src: local('Patrick Hand'), local('Comic Neue'), local('Brush Script MT'), local('Segoe Script'), local('Comic Sans MS');\n      font-display: swap;\n    }\n    @font-face {\n      font-family: 'HandwriteAI Question';\n      src: local('Instrument Serif'), local('Georgia'), local('Times New Roman'), local('Serif');\n      font-display: swap;\n    }\n    .handwriting-text {\n      font-family: 'HandwriteAI Handwriting', 'Patrick Hand', 'Comic Neue', 'Brush Script MT', 'Segoe Script', 'Comic Sans MS', cursive;\n      font-size: 7.285714285714285px;\n      line-height: 141.5529411764706px;\n      letter-spacing: 0.4290999999999999px;\n      word-spacing: 22.095238095238095px;\n      font-weight: 500;\n      transform: skewX(-3.1deg);\n      color: #1e293b;\n    }\n    .question-text {\n      font-family: 'HandwriteAI Question', 'Instrument Serif', Georgia, 'Times New Roman', serif;\n      font-size: 8.014285714285714px;\n      line-height: 169.86352941176472px;\n      font-weight: 600;\n      color: #1e3a5f;\n      transform: skewX(-0.9299999999999999deg);\n    }\n    .margin-line {\n      background-image: linear-gradient(to right, rgba(239, 68, 68, 0.3) 1px, transparent 1px);\n      background-position: 60px 0;\n      background-size: 1px 100%;\n      background-repeat: no-repeat;\n    }\n  \n        .assignment-title {\n          font-family: 'HandwriteAI Question', Georgia, serif;\n          font-size: 9.714285714285714px;\n          font-weight: 600;\n          color: #1e3a5f;\n          margin-bottom: 141.5529411764706px;\n          text-align: center;\n          transform: skewX(-0.6200000000000001deg);\n        }\n        .question-block {\n          margin-bottom: 24px;\n          page-break-inside: avoid;\n        }\n        .question-number {\n          font-weight: 600;\n          margin-right: 8px;\n        }\n        .answer-text {\n          margin-left: 2.5rem;\n        }\n        .page-number {\n          position: absolute;\n          bottom: 30px;\n          right: 30px;\n          font-size: 12px;\n          color: #93c5fd;\n        }\n        @media print {\n          .page-container { page-break-after: always; }\n        }\n      </style>\n    </head>\n    <body>\n      <div class=\"page-container paper-ruled margin-line\">\n        <div class=\"question-block\"><p class=\"question-text\"><span class=\"question-number\">Q3:</span> <p>What is the Schrödinger equation?</p>\n</p><div class=\"answer-text handwriting-text\"><p>The Schrödinger equation is the fundamental governing equation of non-relativistic quantum mechanics, serving as the functional equivalent of Newton’s second law in classical mechanics. In its time-dependent form, <span class=\"math-inline\" data-latex=\"i\\hbar \\frac{\\partial}{\\partial t} \\Psi(\\mathbf{r}, t) = \\hat{H} \\Psi(\\mathbf{r}, t)\">\\(i\\hbar \\frac{\\partial}{\\partial t} \\Psi(\\mathbf{r}, t) = \\hat{H} \\Psi(\\mathbf{r}, t)\\)</span>, the equation describes how the quantum state of a physical system—represented by the complex-valued wave function <span class=\"math-inline\" data-latex=\"\\Psi\">\\(\\Psi\\)</span>—evolves over time under the influence of the Hamiltonian operator <span class=\"math-inline\" data-latex=\"\\hat{H}\">\\(\\hat{H}\\)</span>. The wave function itself contains all measurable information about the system, and its square modulus, <span class=\"math-inline\" data-latex=\"|\\Psi|^2\">\\(|\\Psi|^2\\)</span>, provides the probability density of finding a particle in a specific region of space, thereby introducing the inherent probabilistic nature of quantum phenomena.</p>\n<p>For stationary states where the potential energy is time-independent, the equation can be reformulated via separation of variables into the time-independent Schrödinger equation, <span class=\"math-inline\" data-latex=\"\\hat{H}\\psi = E\\psi\">\\(\\hat{H}\\psi = E\\psi\\)</span>. This is an eigenvalue problem where the Hamiltonian operator acts on the spatial wave function <span class=\"math-inline\" data-latex=\"\\psi\">\\(\\psi\\)</span> to yield the total energy <span class=\"math-inline\" data-latex=\"E\">\\(E\\)</span> of the system. Solving this equation is central to predicting the quantized energy levels of atoms, molecules, and solid-state structures. By enforcing boundary conditions—such as continuity, finiteness, and square-integrability—the equation naturally leads to the quantization of physical observables, demonstrating that energy and other dynamical variables are restricted to discrete values in confined systems.</p>\n</div></div>\n        <div class=\"page-number\">Page 4 of 4</div>\n      </div>\n    </body>\n    </html>\n  ",
+          "width": 794,
+          "height": 1123,
+          "createdAt": "2026-11-22T02:32:02.099Z"
+        }
+      ],
+      "poll": {
+        "success": true
+      },
+      "preview": {
+        "success": true
+      }
+    },
+    "handwritingRealistic": {
+      "generate": {
+        "success": true,
+        "jobId": "6cd77192-1bd7-4235-96b8-219d6c0ef52c"
+      },
+      "failed": true,
+      "errorMessage": "Cannot read properties of undefined (reading 'primary')",
+      "poll": {
+        "success": true
+      },
+      "preview": {
+        "success": true
+      }
+    },
+    "pdfExport": {
+      "filePath": "C:\\Users\\Lenovo\\handwritten-assignment-generator\\test-screenshots\\e2e-test-1795314742185.pdf",
+      "fileSize": 215291,
+      "export": {
+        "success": true
+      }
+    },
+    "docxExport": {
+      "filePath": "C:\\Users\\Lenovo\\handwritten-assignment-generator\\test-screenshots\\e2e-test-1795314749977.docx",
+      "fileSize": 214892,
+      "export": {
+        "success": true
+      }
+    },
+    "security": {
+      "sqlInjection": {
+        "blocked": true,
+        "status": 401
+      },
+      "xss": {
+        "blocked": false
+      },
+      "unauthorized": {
+        "blocked": true,
+        "status": 401
+      },
+      "rateLimit": {
+        "blocked": false
+      },
+      "csrf": {
+        "hasRefreshCookie": true,
+        "sameSite": "Lax",
+        "httpOnly": true,
+        "secure": false
+      }
+    },
+    "performance": {},
+    "cleanup": {
+      "deleteAssignment": {
+        "success": true
+      },
+      "logout": {
+        "success": true
+      }
+    }
+  },
+  "performance": {
+    "demo-login-api": "1310ms",
+    "demo-login-ui": "3136ms",
+    "dashboard-load": "385ms",
+    "refresh-page": "602ms",
+    "logout": "435ms",
+    "relogin": "4445ms",
+    "create-assignment-api": "63ms",
+    "generate-answers": "446ms",
+    "handwriting-personal-generate": "11ms",
+    "handwriting-personal-poll": "10688ms",
+    "handwriting-personal-preview": "4590ms",
+    "handwriting-realistic-generate": "30ms",
+    "handwriting-realistic-poll": "34ms",
+    "handwriting-realistic-preview": "4312ms",
+    "pdf-export": "9177ms",
+    "docx-export": "7790ms",
+    "security-sql-injection": "14ms",
+    "security-xss": "7ms",
+    "security-unauthorized": "8ms",
+    "security-rate-limit": "88ms",
+    "security-csrf": "3ms",
+    "perf-api-login": "1468ms",
+    "perf-api-assignments": "15ms",
+    "perf-api-handwriting-profiles": "7ms",
+    "cleanup-delete-assignment": "9ms",
+    "cleanup-logout": "5ms"
+  },
+  "screenshots": [
+    {
+      "name": "01-login-page",
+      "path": "C:\\Users\\Lenovo\\handwritten-assignment-generator\\test-screenshots\\01-login-page-1795314699213.png"
+    },
+    {
+      "name": "02-after-demo-login",
+      "path": "C:\\Users\\Lenovo\\handwritten-assignment-generator\\test-screenshots\\02-after-demo-login-1795314701352.png"
+    },
+    {
+      "name": "03-dashboard-loaded",
+      "path": "C:\\Users\\Lenovo\\handwritten-assignment-generator\\test-screenshots\\03-dashboard-loaded-1795314701985.png"
+    },
+    {
+      "name": "04-after-refresh",
+      "path": "C:\\Users\\Lenovo\\handwritten-assignment-generator\\test-screenshots\\04-after-refresh-1795314702782.png"
+    },
+    {
+      "name": "05-after-logout",
+      "path": "C:\\Users\\Lenovo\\handwritten-assignment-generator\\test-screenshots\\05-after-logout-1795314703226.png"
+    },
+    {
+      "name": "06-after-relogin",
+      "path": "C:\\Users\\Lenovo\\handwritten-assignment-generator\\test-screenshots\\06-after-relogin-1795314707570.png"
+    },
+    {
+      "name": "08-handwriting-personal-preview",
+      "path": "C:\\Users\\Lenovo\\handwritten-assignment-generator\\test-screenshots\\08-handwriting-personal-preview-1795314727334.png"
+    },
+    {
+      "name": "09-handwriting-realistic-preview",
+      "path": "C:\\Users\\Lenovo\\handwritten-assignment-generator\\test-screenshots\\09-handwriting-realistic-preview-1795314731922.png"
+    }
+  ],
+  "errors": []
+}
