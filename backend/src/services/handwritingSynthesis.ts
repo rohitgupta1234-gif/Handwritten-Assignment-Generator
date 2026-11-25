@@ -385,7 +385,7 @@ function generatePageHTML(
       <meta charset="UTF-8">
       <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Schoolbell', cursive; background: white; margin: 0; padding: 0; }
+        body { font-family: 'Gaegu', 'Hi Melody', cursive; background: white; margin: 0; padding: 0; }
         .page-container {
           width: ${dims.width}px;
           height: ${dims.height}px;

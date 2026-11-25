@@ -391,8 +391,8 @@ export function generateRealisticHandwritingCSS(
   // Build font-family with fallbacks
   const fontFamily = `'${styleFonts.primary}', ${styleFonts.fallbacks.join(', ')}`;
 
-  // Question font - match handwriting style, no printed fonts
-  const questionFontFamily = `'Schoolbell', 'Indie Flower', ${fontFamily}`;
+  // Question font - match handwriting style, exactly same font family
+  const questionFontFamily = fontFamily;
 
   // Ink density affects color opacity
   const inkOpacity = baseCharacteristics

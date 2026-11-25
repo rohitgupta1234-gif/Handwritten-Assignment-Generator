@@ -7,6 +7,7 @@ import { visualizer } from 'rollup-plugin-visualizer'
 const analyze = process.env.ANALYZE === 'true'
 
 export default defineConfig({
+  base: './',
   plugins: [
     react(),
     analyze && visualizer({
