@@ -1,0 +1,21 @@
+# Ignore node_modules and builds in local context
+node_modules
+*/node_modules
+dist
+*/dist
+.git
+.env
+.env.*
+!.env.example
+*.log
+data/*.db
+data/*.sqlite
+uploads/*
+!uploads/.gitkeep
+test-output/
+test-screenshots/
+generated_pages_preview/
+v2_pages_preview/
+extracted_glyphs_preview/
+*.pdf
+*.docx

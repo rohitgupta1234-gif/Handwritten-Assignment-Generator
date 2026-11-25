@@ -1,0 +1,2 @@
+import{j as n,au as a,av as t,K as r,aw as i,B as m,ax as p,ay as u,az as l,aA as h,aB as y}from"./vendor-react-DhjAJOz0.js";const g={mathematics:y,physics:h,chemistry:l,biology:u,"computer-science":p,english:m,history:i,geography:r,economics:t,other:a};function x({subject:s,className:o,style:c}){const e=g[s]||a;return n.jsx(e,{className:o,style:c})}export{x as S};
+//# sourceMappingURL=SubjectIcon-B8z03sj9.js.map

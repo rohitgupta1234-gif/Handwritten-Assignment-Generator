@@ -1,0 +1,2 @@
+import{r as c}from"./vendor-react-DhjAJOz0.js";function b(a){const[u,o]=c.useState(a),[d,s]=c.useState({}),[E,n]=c.useState({});return{values:u,errors:d,touched:E,handleChange:(e,r)=>{o(t=>({...t,[e]:r}))},handleBlur:e=>{n(r=>({...r,[e]:!0}))},setFieldError:(e,r)=>{s(t=>({...t,[e]:r}))},clearErrors:()=>s({}),reset:()=>{o(a),s({}),n({})},validate:e=>{const r={};return Object.keys(e).forEach(t=>{const l=e[t];if(l){const h=l(u[t]);h&&(r[t]=h)}}),s(r),Object.keys(r).length===0},setValues:o,setErrors:s,setTouched:n}}export{b as u};
+//# sourceMappingURL=index-Qid1VOgC.js.map
